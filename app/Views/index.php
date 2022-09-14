@@ -1,1 +1,1 @@
-ini index baru
+ini index
