@@ -11,31 +11,27 @@ class Mahasiswa extends Seeder
     {
         $data_mahasiswa = [
             [
-                'npm' => '2017051022',
-                'nama'    => 'Satria Sapta Nugraha',
-                'alamat' => 'Kota Metro',
-                'created_at' => Time::now(),
+                ' npm' => '2017051053',
+                'nama'    => 'Rendy Lutfi Prabowo',
+                'alamat'    => 'Prabumulih',
+                'created_at'    => Time::now()
             ],
             [
-                'npm' => '2017051037',
-                'nama'    => 'Ahmad Muzakki',
-                'alamat' => 'Natar',
-                'created_at' => Time::now(),
+                ' npm' => '2017051083',
+                'nama'    => 'Deny Aldy .A',
+                'alamat'    => 'Waykanan',
+                'created_at'    => Time::now()
             ],
             [
-                'npm' => '2017051020',
-                'nama'    => 'Nur Setiowati',
-                'alamat' => 'Tanggamus',
-                'created_at' => Time::now(),
+                ' npm' => '2017051023',
+                'nama'    => 'Satria Sapta',
+                'alamat'    => 'Kota Metro',
+                'created_at'    => Time::now()
             ],
-            [
-                'npm' => '2017051014',
-                'nama'    => 'Saddam Surya',
-                'alamat' => 'Sukarame',
-                'created_at' => Time::now(),
-            ]
         ];
 
+        // Simple Queries
+        //$this->db->query('INSERT INTO mahasiswa (npm, nama, alamat, created_at) VALUES (:npm:, :nama:, :alamat:, :created_at:)', $data);
 
         // Using Query Builder
         foreach ($data_mahasiswa as $data) {
